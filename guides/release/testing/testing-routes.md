@@ -41,7 +41,7 @@ necessarily obvious here because of the small size of the functions, separating
 code into smaller chunks (or "concerns") allows it to be more readily isolated
 for testing, which in turn allows you to catch bugs more easily.
 
-Here is an example of test this route in an isolated test case:
+Here is an example of how to test this route in an isolated test case:
 
 ```javascript {data-filename=tests/unit/routes/application-test.js}
 import { module, test } from 'qunit';
